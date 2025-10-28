@@ -1,6 +1,6 @@
 -- DROP DATABASE IF EXISTS northwind;
 
--- CREATE DATABASE IF NOT EXISTS northwind;
+CREATE DATABASE IF NOT EXISTS northwind;
 
 USE northwind;
 
