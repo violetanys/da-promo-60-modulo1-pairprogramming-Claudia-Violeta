@@ -39,4 +39,21 @@ INSERT INTO facturas (id_factura, numero_factura, fecha, id_zapatilla, id_emplea
 
 SELECT *
 	FROM facturas; 
+
     
+UPDATE zapatillas
+	SET color = "Amarillo"
+    WHERE id_zapatilla = 2;
+SELECT * 
+	FROM zapatillas; 
+UPDATE empleados
+	SET tienda = "A Coruña"
+    WHERE id_empleado = 1;
+SELECT * 
+	FROM empleados; 
+UPDATE clientes
+	SET numero_telefono = 123456728 
+    WHERE id_cliente = 1;
+UPDATE facturas
+	SET total = 89.91 
+    WHERE id_zapatilla = 2;
