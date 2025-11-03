@@ -6,4 +6,9 @@ SELECT EmployeeID, LastName, FirstName
 SELECT ProductID, ProductName, UnitPrice, UnitsInStock
 	FROM products
     WHERE UnitPrice < 5;
- 
+SELECT *
+	FROM customers
+    WHERE City = "London" or City = "Seattle";
+    
+    
+CustomerID CompanyNameContactNameContactTitleAddressCityRegionPostalCodeCountryPhoneFax
