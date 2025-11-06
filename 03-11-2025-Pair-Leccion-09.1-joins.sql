@@ -25,10 +25,15 @@ SELECT trabajadores.EmployeeID, trabajadores.LastName, trabajadores.FirstName, t
         ;
 
 -- 3 nos piden : lista de pedidos con clientes incluyendo los pedidos sin cliente asignado. 
- SELECT *
+SELECT *
 	FROM orders;
 SELECT *
   FROM customers; 
+  
+SELECT OrderID, OrderDate,   -- TESTS
+	FROM orders
+    LEFT JOIN customers
+    ON orders.CustomerID = customers.CustomerID
 	
 
 
